@@ -236,7 +236,7 @@ if nav_choice == "💬 Chat Assistant":
                     st.session_state.pop("messages", None)
                     st.rerun()
             with cols[1]:
-                if st.button("🍗 Chicken", key=f"chick_new"):
+                if st.button("🍗 Chicken Menu", key=f"chick_new"):
                     handle_preset_click("Please provide a delicious chicken dish recipe. Strictly ensure it contains ZERO allergens or any ingredients listed in my disliked profile.")
                     st.rerun()
             with cols[2]:
